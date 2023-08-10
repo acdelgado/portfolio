@@ -2618,6 +2618,20 @@ input, select, textarea {
 			top: 0.75rem;
 		}
 
+		.image.leek {
+			display: block;
+			margin: 4rem 0;
+			width: 100%;
+		}
+
+			.image.leek:first-child {
+				margin-top: 0;
+			}
+
+			.image.leek img {
+				width: 50%;
+			}
+		
 		.image.fit {
 			display: block;
 			margin: 2.5rem 0;
@@ -3234,7 +3248,7 @@ input, select, textarea {
 			width: 100%;
 			height: 100%;
 			background-color: #212931;
-			background-image: url("../../images/overlay.png"), linear-gradient(0deg, rgb(32, 1, 110), rgb(0, 72, 227)), url("../../images/bg.jpg");
+			background-image: url("../../images/overlay.png"), linear-gradient(0deg, rgb(92, 252, 134), rgb(0, 41, 130)), url("../../images/bg.jpg");
 			background-size: auto,								auto,														100% auto;
 			background-position: center,								center,														top center;
 			background-repeat: repeat,								no-repeat,													no-repeat;
